@@ -1,0 +1,35 @@
+{
+    "productId":"rachelsVanityMirror",
+    "dsn":"123456",
+    "wundergroundApi":{
+        "wundergroundApiKey":"1057953ee05f3f01",
+        "wundergroundStateIdentifier":"AZ",
+        "wundergroundCity":"Phoenix"
+    },
+    "googleApi": {
+        "googDistanceMatrixApi":"AIzaSyDpEjVUy6ok6vhUZgMjokl4umADhc0TIvo",
+        "origins":"10016+N+184th+DR+Wadell+AZ",
+        "destinations":"7205+North+137th+Avenue+Luke+Air+Force+Base+AZ"
+    },
+    "mirrorServers": {
+        "mirrorPort": 7466,
+        "masterServerPort" : 7465,
+        "masterServerIP": "127.0.0.1"
+    },
+    "speech": {
+        "pathToFile": "/home/pi/PythonMasterServer/audio.flac"
+    },
+    "faceRecognition": {
+        "positiveThreshold": 2000.0,
+        "trainingFile": "training.xml",
+        "negativeDirectory": "faceRecTraining/negative",
+        "faceWidth": 92,
+        "faceHeight": 112,
+        "haarFaces": "haarcascade_frontalface_alt.xml",
+        "haarScaleFactor": 1.3,
+        "haarMinNeighbors": 4,
+        "haarMinSize": 30,
+        "debugImage": "capture.pgm",
+        "recognitionTries": 5
+    }
+}
